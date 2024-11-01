@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>franka_control_py</name>
+  <version>0.0.0</version>
+  <description>Franka control with Cartesian Impedance Controller</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>scipy</depend>
+  <depend>deap</depend>
+  <depend>pinocchio</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
